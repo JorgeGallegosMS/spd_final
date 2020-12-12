@@ -1,0 +1,35 @@
+body {
+  color: #e6d0d0;
+}
+
+.navbar {
+  padding: 1rem;
+  background-color: red;
+}
+
+.btn-primary:hover {
+  background-color: blue;
+  color: white;
+}
+
+.hero-background-img {
+  position: relative;
+  background: rgba(0, 0, 0, 0.1);
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.hero-background-img:after {
+  content: "";
+  position: absolute;
+  background-image: url("https://images.unsplash.com/photo-1523283895343-60070f4210c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.25;
+}
